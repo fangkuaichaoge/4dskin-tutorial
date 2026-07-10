@@ -40,7 +40,7 @@ Meshy 插件主要是让你在基岩模型编辑模式下也可以看到、编�
 
 **使用方法**：
 1. 必须要确保模型是都转换成了逐面 UV，且把模型导出为 JSON 模型
-2. 打开 [uvfixer.html](uvfixer.html) 工具
+2. 打开 [uvfixer.html](https://fangkuaichaoge.github.io/4dskin-tutorial/uvfixer.html) 工具
 3. 上传文件，然后点击开始修复
 4. 下载修复好的 JSON 模型就可以继续优化移植了
 
