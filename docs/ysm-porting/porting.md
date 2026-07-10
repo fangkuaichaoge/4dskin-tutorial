@@ -36,7 +36,7 @@
 
 ## 第三步：修复 UV
 
-打开工具内的 [uvfixer.html](/uvfixer.html)，上传刚才的 JSON 模型，执行优化，优化后下载新的 JSON 模型文件。
+打开 [uvfixer](https://fangkuaichaoge.github.io/uvfixer/){target="_blank"}，上传刚才的 JSON 模型，执行优化，优化后下载新的 JSON 模型文件。
 
 ![UV 修复工具](tupian/tupian7.png)
 
