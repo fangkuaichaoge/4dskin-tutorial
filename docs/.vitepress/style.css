@@ -1,0 +1,214 @@
+:root {
+  --vp-c-brand: #8b5cf6;
+  --vp-c-brand-light: #a78bfa;
+  --vp-c-brand-dark: #7c3aed;
+  --vp-c-brand-dimm: rgba(139, 92, 246, 0.16);
+  
+  --vp-c-primary: #8b5cf6;
+  --vp-c-primary-light: #a78bfa;
+  --vp-c-primary-dark: #7c3aed;
+  --vp-c-primary-dimm: rgba(139, 92, 246, 0.16);
+  
+  --vp-gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f59e0b 100%);
+  --vp-gradient-bg: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 30%, #2d1b69 60%, #1a1a2e 100%);
+}
+
+body {
+  background: var(--vp-gradient-bg);
+  min-height: 100vh;
+}
+
+.VPNavBar {
+  background: rgba(15, 15, 35, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.VPSidebar {
+  background: rgba(20, 20, 45, 0.95) !important;
+  border-right: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.VPSidebarItem.active {
+  color: #8b5cf6 !important;
+}
+
+.VPSidebarItem.active::before {
+  background: #8b5cf6 !important;
+}
+
+.VPContent {
+  background: rgba(15, 15, 35, 0.6);
+}
+
+.VPHomeHero {
+  background: transparent !important;
+}
+
+.VPHomeHeroTitle {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.VPHomeHeroDescription {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+}
+
+.VPButtonPrimary {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%) !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.VPButtonPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(139, 92, 246, 0.5);
+}
+
+.VPButtonSecondary {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #fff !important;
+}
+
+.VPButtonSecondary:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+.VPHomeFeatures {
+  background: transparent !important;
+}
+
+.VPHomeFeature {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.VPHomeFeature:hover {
+  background: rgba(139, 92, 246, 0.1) !important;
+  border-color: rgba(139, 92, 246, 0.3) !important;
+  transform: translateY(-4px);
+}
+
+.VPHomeFeatureTitle {
+  color: #fff !important;
+}
+
+.VPHomeFeatureDesc {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.VPFooter {
+  background: rgba(10, 10, 25, 0.95) !important;
+  border-top: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.VPFooterMessage {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.content h1, .content h2, .content h3, .content h4 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.content h2 {
+  border-bottom: 2px solid rgba(139, 92, 246, 0.3);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.content p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+}
+
+.content a {
+  color: #a78bfa;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.content a:hover {
+  border-bottom-color: #a78bfa;
+  color: #c4b5fd;
+}
+
+.content ul, .content ol {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
+
+.content li::marker {
+  color: #8b5cf6;
+}
+
+.content code {
+  background: rgba(139, 92, 246, 0.15);
+  color: #a78bfa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}
+
+.content pre {
+  background: rgba(20, 20, 45, 0.9) !important;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 12px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.content blockquote {
+  background: rgba(139, 92, 246, 0.1);
+  border-left: 4px solid #8b5cf6;
+  padding: 1rem;
+  border-radius: 0 8px 8px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.content th, .content td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.content th {
+  background: rgba(139, 92, 246, 0.2);
+  color: #fff;
+  font-weight: 600;
+}
+
+.content tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.content img {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .VPHomeHeroTitle {
+    font-size: 2rem;
+  }
+}
