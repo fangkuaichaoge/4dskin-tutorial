@@ -10,39 +10,39 @@ export default defineConfig({
     siteTitle: '4D Skin Tutorial',
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/快速开始/认识4d皮肤' },
-      { text: '4D 皮肤包格式', link: '/4d皮肤包格式/创建一个皮肤包' },
-      { text: '制作 4D 皮肤', link: '/制作4d皮肤/blockbench制作4d皮肤' },
-      { text: 'YSM 模型移植', link: '/新版基岩及ysm模型移植/认识uv' }
+      { text: '快速开始', link: '/quick-start/intro' },
+      { text: '4D 皮肤包格式', link: '/skin-pack-format/create' },
+      { text: '制作 4D 皮肤', link: '/create-4d-skin/blockbench' },
+      { text: 'YSM 模型移植', link: '/ysm-porting/uv' }
     ],
     sidebar: [
       {
         text: '快速开始',
         items: [
-          { text: '认识 4D 皮肤', link: '/快速开始/认识4d皮肤' },
-          { text: '准备工具', link: '/快速开始/准备工具' }
+          { text: '认识 4D 皮肤', link: '/quick-start/intro' },
+          { text: '准备工具', link: '/quick-start/setup' }
         ]
       },
       {
         text: '4D 皮肤包格式',
         items: [
-          { text: '创建一个皮肤包', link: '/4d皮肤包格式/创建一个皮肤包' },
-          { text: '认识 geometry.json', link: '/4d皮肤包格式/认识geometry.json' },
-          { text: '认识 skins.json', link: '/4d皮肤包格式/认识skins.json' }
+          { text: '创建一个皮肤包', link: '/skin-pack-format/create' },
+          { text: '认识 geometry.json', link: '/skin-pack-format/geometry' },
+          { text: '认识 skins.json', link: '/skin-pack-format/skins' }
         ]
       },
       {
         text: '制作 4D 皮肤',
         items: [
-          { text: 'Blockbench 建模 4D 皮肤', link: '/制作4d皮肤/blockbench制作4d皮肤' }
+          { text: 'Blockbench 建模 4D 皮肤', link: '/create-4d-skin/blockbench' }
         ]
       },
       {
         text: '新版基岩及 YSM 模型移植',
         items: [
-          { text: '认识 UV', link: '/新版基岩及ysm模型移植/认识uv' },
-          { text: 'YSM 移植工具介绍', link: '/新版基岩及ysm模型移植/ysm移植工具介绍' },
-          { text: '如何移植 YSM 模型', link: '/新版基岩及ysm模型移植/如何移植ysm模型' }
+          { text: '认识 UV', link: '/ysm-porting/uv' },
+          { text: 'YSM 移植工具介绍', link: '/ysm-porting/tools' },
+          { text: '如何移植 YSM 模型', link: '/ysm-porting/porting' }
         ]
       }
     ],
